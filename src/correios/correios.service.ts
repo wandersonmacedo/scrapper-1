@@ -10,7 +10,7 @@ export class CorreiosService {
 
     async findPackageCorreio(rastreio) {
         //selecionando linguagem e moeda
-        const browser = await puppeteer.launch({args: ['--no-sandbox', '--disable-setuid-sandbox']});
+        const browser = await puppeteer.launch();
         try {
 
 
